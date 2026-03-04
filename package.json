@@ -5,9 +5,15 @@
     "scripts": {
         "start": "npm start --prefix backend",
         "build": "npm install --prefix backend",
+        "postinstall": "npm install --prefix backend",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.2.1",
+        "cors": "^2.8.6",
+        "dotenv": "^17.3.1"
+    }
 }
