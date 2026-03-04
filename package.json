@@ -1,0 +1,13 @@
+{
+    "name": "dummy-root",
+    "version": "1.0.0",
+    "description": "Root package.json for Render deployment",
+    "scripts": {
+        "start": "npm start --prefix backend",
+        "build": "npm install --prefix backend",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
