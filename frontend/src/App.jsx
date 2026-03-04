@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/data')
+    fetch('https://dummy-2-p9ku.onrender.com/api/data')
       .then((res) => {
         if (!res.ok) throw new Error('Network response was not ok')
         return res.json()
